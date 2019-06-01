@@ -1,6 +1,6 @@
 spring: 
   profiles: 
-    active:
+    active: 
     - dev
 
 #用三个“---”作为分隔符，实现同一个配置文件可已配置不同的微服务信息
