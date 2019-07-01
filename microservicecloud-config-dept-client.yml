@@ -33,6 +33,8 @@ eureka:
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
+  register-with-eureka: false
+  fetch-registry: false
 
 info: 
   app.name: atguigu-microservicecloud-springcloudconfig01
@@ -71,7 +73,8 @@ eureka:
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
-
+  register-with-eureka: false
+  fetch-registry: false
 info: 
   app.name: atguigu-microservicecloud-springcloudconfig02
   company.name: www.atguigu.com
