@@ -16,7 +16,7 @@ eureka:
   client: 
     register-with-eureka: false #当前的eureka-server自己不向自己注册服务
     fetch-registry: false #不通过eureka获取注册信息
-    service-url: 
+    serviceUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
 ---
 
@@ -33,5 +33,5 @@ eureka:
   client: 
     register-with-eureka: false #当前的eureka-server自己不向自己注册服务
     fetch-registry: false #不通过eureka获取注册信息
-    service-url: 
+    servicUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
