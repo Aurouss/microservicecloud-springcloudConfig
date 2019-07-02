@@ -31,7 +31,7 @@ eureka:
   client: 
     register-with-eureka: true #当前的eureka-server自己不向自己注册服务
     fetch-registry: true #不通过eureka获取注册信息   
-    serviveUrl: 
+    serviceUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
     instance-id: dept-8001.com
@@ -74,7 +74,7 @@ eureka:
   client: 
     register-with-eureka: true #当前的eureka-server自己不向自己注册服务
     fetch-registry: true #不通过eureka获取注册信息 
-    serviveUrl: 
+    serviceUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
     instance-id: dept-8001.com
