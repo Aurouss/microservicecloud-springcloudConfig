@@ -29,8 +29,6 @@ mybatis:
     
 eureka: 
   client: 
-    #register-with-eureka: true #当前的eureka-server自己不向自己注册服务
-    #fetch-registry: true #不通过eureka获取注册信息   
     serviceUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
@@ -72,8 +70,6 @@ mybatis:
     
 eureka: 
   client: 
-    #register-with-eureka: true #当前的eureka-server自己不向自己注册服务
-    #fetch-registry: true #不通过eureka获取注册信息 
     serviceUrl: 
       defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
