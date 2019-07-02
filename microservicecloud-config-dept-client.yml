@@ -29,9 +29,8 @@ mybatis:
     
 eureka: 
   client: 
-    register-with-eureka: false #当前的eureka-server自己不向自己注册服务
     serviveUrl: 
-      defaultZone: http://www.eureka7001.com:7001/eureka/
+      defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
@@ -71,9 +70,8 @@ mybatis:
     
 eureka: 
   client: 
-    register-with-eureka: false #当前的eureka-server自己不向自己注册服务
     serviveUrl: 
-      defaultZone: http://www.eureka7001.com:7001/eureka/
+      defaultZone: http://www.eureka7001.com:7001/eureka
   instance: 
     instance-id: dept-8001.com
     prefer-ip-address: true
